@@ -1,0 +1,10 @@
+* charger.fstab.qcom 0000_charger.fstab.qcom
+* file_contexts 0001_file_contexts
+* fstab.qcom 0002_fstab.qcom
+* init.environ.rc 0003_init.environ.rc
+* init.rc 0004_init.rc
+* sepolicy 0005_sepolicy
+- verity_key 0006_verity_key
++ init.supersu.rc
++ sbin/launch_daemonsu.sh
++ su
